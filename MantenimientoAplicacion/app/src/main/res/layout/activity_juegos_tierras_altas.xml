@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juegos_TierrasAltas">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Tierras Altas"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="404dp"
+        android:layout_height="563dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_juegos_tierras_altas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apacheta" />
+
+            <Button
+                android:id="@+id/btn_juegos_tierras_medias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuerdas" />
+
+            <Button
+                android:id="@+id/btn_juegos_tierras_bajas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tambor" />
+
+            <Button
+                android:id="@+id/btn_juegos_taypi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tambores" />
+
+            <Button
+                android:id="@+id/btn_juegos_macroregiones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bongoes" />
+
+            <Button
+                android:id="@+id/btn_juegos_taypi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xilofono" />
+
+            <Button
+                android:id="@+id/btn_juegos_macroregiones2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rueda de lluvia" />
+
+            <Button
+                android:id="@+id/btn_juegos_tierras_bajas2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Botones de equilibro" />
+
+            <Button
+                android:id="@+id/btn_juegos_macroregiones3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bocinas" />
+
+            <Button
+                android:id="@+id/btn_juegos_taypi3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juego de la pelota" />
+
+            <Button
+                android:id="@+id/btn_juegos_tierras_bajas3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achachilas" />
+
+            <Button
+                android:id="@+id/btn_juegos_taypi4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ispallas" />
+
+            <Button
+                android:id="@+id/btn_juegos_tierras_bajas4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achachilas" />
+
+            <Button
+                android:id="@+id/btn_juegos_macroregiones4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bocinas" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Generar nueva ficha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
